@@ -1,0 +1,132 @@
+.exercise13 {
+  display: none;
+}
+h1 {
+  background-color: rgba(0, 0, 0, 0.491);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.questions-loops {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  padding: 0 20px;
+}
+.questions-arrays {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  padding: 0 20px;
+}
+.exercises {
+  width: 100%;
+  min-height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  gap: 20px;
+}
+.exercises .loops-exercises {
+  width: 100%;
+  min-height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.621);
+  flex-direction: column;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: wrap;
+}
+.btns button {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: orange;
+  padding: 10px 12px;
+  margin: 0 4px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 4px;
+}
+.loops-result {
+  width: 100%;
+  min-height: max-content;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.loops-result .loop-results {
+  width: 100%;
+  min-height: max-content;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgoldenrod;
+}
+.loops-result h1 {
+  font-size: 40px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: green;
+}
+.arrays-result {
+  width: 100%;
+  min-height: max-content;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+.arrays-result .arr-result {
+  width: 100%;
+  min-height: max-content;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgoldenrod;
+}
+.arrays-result h1 {
+  font-size: 40px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: green;
+}
+.exercises .array-exercises {
+  width: 100%;
+  min-height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.621);
+  flex-direction: column;
+}
